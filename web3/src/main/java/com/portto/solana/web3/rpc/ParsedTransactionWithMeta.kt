@@ -33,11 +33,11 @@ data class ParsedTransactionWithMeta(
         @SerialName("logMessages")
         val logMessages: List<String>,
         @SerialName("postBalances")
-        val postBalances: List<Int>,
+        val postBalances: List<Long>,
         @SerialName("postTokenBalances")
         val postTokenBalances: List<String>,
         @SerialName("preBalances")
-        val preBalances: List<Int>,
+        val preBalances: List<Long>,
         @SerialName("preTokenBalances")
         val preTokenBalances: List<String>,
         @SerialName("rewards")
